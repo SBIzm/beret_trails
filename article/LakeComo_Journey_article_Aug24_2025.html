@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Journey Through Lake Como - BeretTrails</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom font import for Inter */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc; /* Light gray background */
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <header class="bg-white shadow-sm py-4 px-4 sm:px-6 lg:px-8">
+        <nav class="container mx-auto flex justify-between items-center">
+            <a href="/" class="text-3xl font-bold text-blue-800 rounded-lg p-2 transition duration-300 ease-in-out hover:bg-blue-50">
+                BeretTrails
+            </a>
+            <ul class="hidden md:flex space-x-6">
+                <li><a href="/" class="text-lg font-medium text-gray-700 hover:text-blue-600 transition duration-200 ease-in-out rounded-md px-3 py-2 hover:bg-blue-50">Home</a></li>
+                <li><a href="#" class="text-lg font-medium text-gray-700 hover:text- blue-600 transition duration-200 ease-in-out rounded-md px-3 py-2 hover:bg-blue-50">About</a></li>
+                <li><a href="#" class="text-lg font-medium text-gray-700 hover:text-blue-600 transition duration-200 ease-in-out rounded-md px-3 py-2 hover:bg-blue-50">Travel</a></li>
+                <li><a href="#" class="text-lg font-medium text-gray-700 hover:text-blue-600 transition duration-200 ease-in-out rounded-md px-3 py-2 hover:bg-blue-50">Finance</a></li>
+                <li><a href="#" class="text-lg font-medium text-gray-700 hover:text-blue-600 transition duration-200 ease-in-out rounded-md px-3 py-2 hover:bg-blue-50">History</a></li>
+                <li><a href="#" class="text-lg font-medium text-gray-700 hover:text-blue-600 transition duration-200 ease-in-out rounded-md px-3 py-2 hover:bg-blue-50">Contact</a></li>
+            </ul>
+            <button class="md:hidden text-gray-700 hover:text-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 rounded-md p-2" id="mobile-menu-button">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+            </button>
+        </nav>
+        <div class="md:hidden mt-2 hidden" id="mobile-menu">
+            <ul class="flex flex-col space-y-2 px-4 py-2 bg-gray-50 rounded-lg shadow-inner">
+                <li><a href="/" class="block text-md font-medium text-gray-700 hover:text-blue-600 transition duration-200 ease-in-out rounded-md px-3 py-2 hover:bg-blue-100">Home</a></li>
+                <li><a href="#" class="block text-md font-medium text-gray-700 hover:text-blue-600 transition duration-200 ease-in-out rounded-md px-3 py-2 hover:bg-blue-100">About</a></li>
+                <li><a href="#" class="block text-md font-medium text-gray-700 hover:text-blue-600 transition duration-200 ease-in-out rounded-md px-3 py-2 hover:bg-blue-100">Blog</a></li>
+                <li><a href="#" class="block text-md font-medium text-gray-700 hover:text-blue-600 transition duration-200 ease-in-out rounded-md px-3 py-2 hover:bg-blue-100">Travel</a></li>
+                <li><a href="#" class="block text-md font-medium text-gray-700 hover:text-blue-600 transition duration-200 ease-in-out rounded-md px-3 py-2 hover:bg-blue-100">Finance</a></li>
+                <li><a href="#" class="block text-md font-medium text-gray-700 hover:text-blue-600 transition duration-200 ease-in-out rounded-md px-3 py-2 hover:bg-blue-100">AI Lab</a></li>
+                <li><a href="#" class="block text-md font-medium text-gray-700 hover:text-blue-600 transition duration-200 ease-in-out rounded-md px-3 py-2 hover:bg-blue-100">History</a></li>
+                <li><a href="#" class="block text-md font-medium text-gray-700 hover:text-blue-600 transition duration-200 ease-in-out rounded-md px-3 py-2 hover:bg-blue-100">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main class="container mx-auto py-16 px-4 sm:px-6 lg:px-8 max-w-4xl">
+        <article class="bg-white p-8 md:p-12 rounded-xl shadow-lg">
+            <img src="https://i.imgur.com/9U3Vdgz.jpeg" alt="Lake Como" class="w-full rounded-xl object-cover mb-8 shadow-sm" style="height: 400px;">
+            
+            <h1 class="text-4xl font-bold text-gray-900 mb-2">A Journey Through Lake Como</h1>
+            <p class="text-gray-500 mb-6 text-sm">Travel | May 28, 2025</p>
+
+            <div class="prose max-w-none text-gray-700 leading-relaxed">
+                <p>Lake Como's dramatic scenery, with its deep blue waters framed by the majestic Alps and dotted with charming, picturesque towns,
+                creates a truly enchanting atmosphere. It's worth seeing for the perfect blend of natural alpine beauty and classic Italian elegance,
+                offering a tranquil escape with stunning historic villas and serene lakeside promenades. My girlfriend and I spent seven days in
+                the town of Como. We stayed in a cozy apartment, just three blocks from the ferry terminal. This central location proved to be
+                the perfect home base for all our adventures, allowing us to easily immerse ourselves in the local culture and explore the
+                breathtaking landscapes that surrounded us</p>
+                <br>
+                <h3 class="italic">Travel Tips</h3>
+                <ul>
+                <li class="italic">Getting to Lake Como is a breeze. The nearest major airport is Milan Malpensa (MXP), and from there, you can take a train directly to
+                Como San Giovanni station. The journey is scenic and takes about 30 minutes.</li>
+                </ul>
+
+                <img src="https://i.imgur.com/JfrNKb8.jpeg" alt="Park in front of Como San Giovanni station" class="w-full rounded-xl object-contain mb-8 shadow-sm" ">
+                <h2 class="text-gray-700 leading-relaxed">Park in front of Como San Giovanni station</h2>
+                
+                <br>
+                <h2 class="underline">Como</h2>
+                <p>The beauty of Lake Como is not just in its famous waters, but in the unique blend of natural wonder and architectural charm.
+                We made a point to explore the town of Como itself on foot,wandering through beautiful piazzas, tree-lined parks, and the
+                impressive Como Cathedral with its ornate Gothic façade. The lakeside promenade quickly became a daily ritual—especially in
+                the evenings when the air cooled, the light softened, and the sunset painted the water in gold and pink. Como is a town where
+                you can wander without a plan and still stumble across hidden gems like artisan shops, old fountains, or bakeries serving fresh pastries.</p>
+                
+                <br>
+                <h3 class="italic">Travel Tips</h3>
+                <ul>
+                    <li class="italic"> The best time for a lakeside stroll is just before sunset. Not only is the light magical for photos, but the locals
+                    are out enjoying their evening passeggiata, making for a lively, authentic atmosphere.</li>
+                </ul>
+                <br> 
+					
+				<img src="https://i.imgur.com/zfcxh6I.jpeg" alt="Como Cathedral" class="w-full rounded-xl object-contain mb-8 shadow-sm" ">
+                <h2 class="text-gray-700 leading-relaxed">Como Cathedral</h2>
+                
+                <br>
+				<h2 class="underline">Como-Brunate Funicular (Funicolare Como-Brunate)</h2>
+				<p> One of our early adventures was riding the historic funicular from Como up to Brunate. The funicular has been in operation since 1894
+				and is a popular attraction for both tourists and locals. The slow climb revealed sweeping views of the lake and the charming rooftops
+				below, and at the top, we were treated to panoramic vistas that looked like they belonged in an art gallery. Brunate itself was quiet and
+				peaceful, with flower-lined streets and little cafés. It was the perfect way to get a sense of the scale and beauty of the region.
+				<br>
+									
+                <h3 class="italic">Traveler Tip:</h3>
+                <ul>
+                    <li class="italic"> Sit on the right side of the funicular when going up to get the best lake views.</li>
+                </ul>
+                <br>
+                
+				<h2 class="underline">Bellagio</h2>
+				
+				<p> A highlight of our trip was exploring the other picturesque villages by water. We dedicated a day to a ferry trip to Bellagio,
+				a village often referred to as the "Pearl of Lake Como." The ferry ride itself was a treat, providing a leisurely and scenic journey
+				along the shoreline, dotted with elegant villas and lush gardens. Bellagio’s cobblestone streets zigzag up the hill, each turn
+				revealing boutique shops, and restaurants. The stunning views from every corner of the village confirmed its reputation as a 
+				must-visit spot on the lake.
+				<br>
+				
+				<h3 class="italic">Traveler Tip:</h3>
+                <ul>
+                    <li class="italic"> Take the morning ferry to Bellagio to avoid the busiest crowds, and wear comfortable shoes—the streets
+					are steep and cobbled.</li>
+                </ul>
+                <br>
+
+				
+				
+                <img src="https://i.imgur.com/gcbPyXk.jpeg" alt="Bellagio" class="w-full rounded-xl object-contain mb-8 shadow-sm" style="height: 600px;">
+                <h2 class="text-gray-700 leading-relaxed">Bellagio</h2>
+                <br>
+				<img src="https://i.imgur.com/MDEthYG.jpeg" alt="Lake Commo Ferries" class="w-full rounded-xl object-contain mb-8 shadow-sm" ">
+                <h2 class="text-gray-700 leading-relaxed">Lake Como Ferries</h2>
+                <br>
+				
+				
+				
+                <h2>Milan</h2>
+                <p>One of the advantages of staying in Como was its excellent train connection to Milan. In just 30 minutes, you can swap serene lake views
+				for the vibrant energy of Italy’s fashion capital. We took the train to Milan twice to visit the two iconic Milan landmarks in the heart
+				of Milan:  Milan Cathedral (Duomo di Milano) and the Galleria Vittorio Emanuele II . The Duomo is a stunning example of Gothic architecture,
+				while the Galleria is a beautiful and historic shopping arcade. They are located adjacent to each other in Piazza del Duomo, making them
+				easy to visit together. We didn’t manage to go inside the Cathedral—the lines were overwhelming that day—but instead, we wandered through
+				the Galleria’s shops, pausing to admire the architectural details.
+				
+				<h3 class="italic">Traveler Tip:</h3>
+                <ul>
+                    <li class="italic"> Book Duomo tickets online in advance to skip the long lines.</li>
+                </ul>
+                <br>
+				<img src="https://i.imgur.com/umAkXAW.jpeg" alt="Duomo di Milano" class="w-full rounded-xl object-contain mb-8 shadow-sm" ">
+                <h2 class="text-gray-700 leading-relaxed">Duomo di Milano</h2>
+				<br>
+				
+				<p> Our week at Lake Como was nothing short of magical. The region captured our hearts with its dramatic scenery, charming towns, and
+				relaxed pace of life. The apartment in Como provided the perfect blend of comfort and convenience, allowing us to truly feel like locals. 
+				We wholeheartedly recommend a week-long trip to Lake Como for any traveler seeking a perfect blend of natural beauty, cultural
+				exploration, and Italian charm. 
+				
+                <br>
+            </div>
+            
+            <a href="/" class="mt-8 inline-block text-blue-600 hover:text-blue-800 font-medium flex items-center group">
+                <svg class="mr-1 w-4 h-4 transition-transform group-hover:-translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 17l-5-5m0 0l5-5m-5 5h14"></path>
+                </svg>
+                Back to Home
+            </a>
+        </article>
+    </main>
+
+    <footer class="bg-gray-900 text-gray-300 py-8 px-4 sm:px-6 lg:px-8 text-center mt-12">
+        <div class="container mx-auto">
+            <p class="mb-4">&copy; 2025 BeretTrails. All rights reserved.</p>
+            <div class="flex justify-center space-x-6 mb-4">
+                <a href="#" class="hover:text-white transition duration-200">Privacy Policy</a>
+                <a href="#" class="hover:text-white transition duration-200">Terms of Service</a>
+            </div>
+            <p class="text-sm">Built with passion and curiosity.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.getElementById('mobile-menu-button');
+            const mobileMenu = document.getElementById('mobile-menu');
+
+            mobileMenuButton.addEventListener('click', function() {
+                mobileMenu.classList.toggle('hidden');
+            });
+        });
+    </script>
+
+</body>
+</html>
