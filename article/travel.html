@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Trails - Beret Trails</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom font import for Inter */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc; /* Light gray background */
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <main>
+        <div class="flex flex-col md:flex-row rounded-bl-3xl rounded-br-3xl shadow-sm bg-white">
+            <header class="md:w-1/4 p-4 md:p-8 flex flex-col items-start justify-start border-r border-gray-200">
+                 <nav class="flex flex-col w-full">
+                    <a href="index.html" class="text-3xl font-bold text-blue-800 rounded-lg p-2 transition duration-300 ease-in-out hover:bg-blue-50">
+                        Beret Trails
+                    </a>
+                    <ul class="flex flex-col space-y-2 mt-8">
+                        <li><a href="index.html" class="text-lg font-medium text-gray-700 hover:text-blue-600 transition duration-200 ease-in-out rounded-md px-3 py-2 hover:bg-blue-50 block">Home</a></li>
+                        <li><a href="#" class="text-lg font-medium text-gray-700 hover:text-blue-600 transition duration-200 ease-in-out rounded-md px-3 py-2 hover:bg-blue-50 block">About</a></li>
+                        <li><a href="travel.html" class="text-lg font-medium text-blue-600 transition duration-300 ease-in-out rounded-md px-3 py-2 bg-blue-50 block">Travel</a></li>
+                        <li><a href="#" class="text-lg font-medium text-gray-700 hover:text-blue-600 transition duration-200 ease-in-out rounded-md px-3 py-2 hover:bg-blue-50 block">Finance</a></li>
+                        <li><a href="#" class="text-lg font-medium text-gray-700 hover:text-blue-600 transition duration-200 ease-in-out rounded-md px-3 py-2 hover:bg-blue-50 block">History</a></li>
+                        <li><a href="#" class="text-lg font-medium text-gray-700 hover:text-blue-600 transition duration-200 ease-in-out rounded-md px-3 py-2 hover:bg-blue-50 block">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <section class="relative text-white flex items-center justify-center overflow-hidden md:w-3/4">
+                <div class="relative w-full h-96">
+                    <img src="https://i.imgur.com/bQwn2Ps.jpeg" alt="Point Lobos" class="w-full h-full object-cover">
+                    <div class="absolute top-0 left-0 w-full text-center py-4">
+                        <h1 class="text-4xl md:text-6xl font-extrabold mb-2 drop-shadow-lg">Travel Trails</h1>
+                        <p class="text-xl md:text-1xl font-extrabold italic drop-shadow-md">Explore the world with us.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        
+        <section id="travel-articles-list" class="container mx-auto py-16 px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center mb-12 text-gray-900">Our Latest Adventures</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Travel Article Card Example -->
+                <article class="bg-white rounded-xl shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-xl">
+                    <div class="relative">
+                        <img src="https://i.imgur.com/9U3Vdgz.jpeg" alt="Lake Como" class="w-full h-48 object-cover">
+                        <div class="absolute top-2 left-2 text-white text-base font-bold bg-blue-700 bg-opacity-75 px-3 py-1 rounded">Travel</div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-2xl font-semibold text-gray-900 mb-2">A Journey Through Lake Como</h3>
+                        <p class="text-gray-600 text-sm mb-4">August 24, 2025</p>
+                        <p class="text-gray-700 mb-4">Lake Como's dramatic scenery, with its deep blue waters framed by the majestic Alps and dotted with charming, picturesque towns, creates a truly enchanting atmosphere...</p>
+                        <a href="/beret_trails/article/LakeComo_Journey_article_Aug24_2025.html" class="text-blue-600 hover:text-blue-800 font-medium flex items-center group">
+                            Read More
+                            <svg class="ml-1 w-4 h-4 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Placeholder for another travel article -->
+                <article class="bg-white rounded-xl shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-xl">
+                    <div class="relative">
+                        <img src="https://placehold.co/600x400/D1D5DB/4B5563?text=New+Destination" alt="Placeholder Travel Image" class="w-full h-48 object-cover">
+                        <div class="absolute top-2 left-2 text-white text-base font-bold bg-blue-700 bg-opacity-75 px-3 py-1 rounded">Travel</div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-2xl font-semibold text-gray-900 mb-2">Discovering the Hidden Gems of Kyoto</h3>
+                        <p class="text-gray-600 text-sm mb-4">September 10, 2025</p>
+                        <p class="text-gray-700 mb-4">Journey through ancient temples, serene gardens, and vibrant markets in Japan's cultural heart...</p>
+                        <a href="/beret_trails/article/Kyoto_Hidden_Gems_article_Sep10_2025.html" class="text-blue-600 hover:text-blue-800 font-medium flex items-center group">
+                            Read More
+                            <svg class="ml-1 w-4 h-4 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Another placeholder -->
+                <article class="bg-white rounded-xl shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-xl">
+                    <div class="relative">
+                        <img src="https://placehold.co/600x400/A7F3D0/065F46?text=Mountain+Adventure" alt="Placeholder Travel Image" class="w-full h-48 object-cover">
+                        <div class="absolute top-2 left-2 text-white text-base font-bold bg-blue-700 bg-opacity-75 px-3 py-1 rounded">Travel</div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-2xl font-semibold text-gray-900 mb-2">Trekking the Majestic Himalayas</h3>
+                        <p class="text-gray-600 text-sm mb-4">October 5, 2025</p>
+                        <p class="text-gray-700 mb-4">An unforgettable adventure through breathtaking landscapes and ancient mountain villages...</p>
+                        <a href="/beret_trails/article/Himalayas_Trek_article_Oct05_2025.html" class="text-blue-600 hover:text-blue-800 font-medium flex items-center group">
+                            Read More
+                            <svg class="ml-1 w-4 h-4 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </article>
+                
+            </div>
+        </section>
+
+        <!-- The "Stay Connected" and "About BeretTrails" sections from index.html can be added here if you want them on the travel page too -->
+        <section class="bg-blue-50 py-16 px-4 sm:px-6 lg:px-8 rounded-t-3xl shadow-inner">
+            <h2 class="text-4xl font-bold text-center mb-12 text-gray-900">Explore Other Categories</h2>
+            <div class="container mx-auto grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-6">
+                            <a href="index.html" class="flex flex-col items-center p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-transform duration-300 hover:scale-105 group">
+                    <img src="https://placehold.co/100x100/A7F3D0/065F46?text=✈️" alt="Travel icon" class="w-20 h-20 mb-4 rounded-full bg-blue-100 p-3">
+                    <span class="text-lg font-semibold text-gray-800 group-hover:text-blue-700">Home</span>
+                </a>
+                                <a href="#" class="flex flex-col items-center p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-transform duration-300 hover:scale-105 group">
+                    <img src="https://placehold.co/100x100/BFDBFE/1E40AF?text=📈" alt="Finance icon" class="w-20 h-20 mb-4 rounded-full bg-blue-100 p-3">
+                    <span class="text-lg font-semibold text-gray-800 group-hover:text-blue-700">Market Musings</span>
+                </a>
+                                <a href="#" class="flex flex-col items-center p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-transform duration-300 hover:scale-105 group">
+                    <img src="https://placehold.co/100x100/C7D2FE/3730A3?text=🤖" alt="AI icon" class="w-20 h-20 mb-4 rounded-full bg-blue-100 p-3">
+                    <span class="text-lg font-semibold text-gray-800 group-hover:text-blue-700">AI Insights</span>
+                </a>
+                                <a href="#" class="flex flex-col items-center p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-transform duration-300 hover:scale-105 group">
+                    <img src="https://placehold.co/100x100/D1D5DB/4B5563?text=🏛️" alt="History icon" class="w-20 h-20 mb-4 rounded-full bg-blue-100 p-3">
+                    <span class="text-lg font-semibold text-gray-800 group-hover:text-blue-700">History Hues</span>
+                </a>
+                                </a>
+            </div>
+        </section>
+
+
+        <section class="bg-blue-700 text-white py-16 px-4 sm:px-6 lg:px-8 text-center rounded-tl-3xl rounded-tr-3xl shadow-xl">
+            <h2 class="text-4xl font-bold mb-6">Stay Connected</h2>
+            <p class="text-xl mb-8 opacity-90">Get the latest insights and updates directly in your inbox.</p>
+            <form class="max-w-md mx-auto flex flex-col sm:flex-row gap-4">
+                <input type="email" placeholder="Enter your email address" class="flex-grow p-4 rounded-full text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-300 shadow-inner">
+                <button type="submit" class="bg-white text-blue-700 hover:bg-blue-100 px-8 py-4 rounded-full text-lg font-semibold shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
+                    Subscribe
+                </button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="bg-gray-900 text-gray-300 py-8 px-4 sm:px-6 lg:px-8 text-center">
+        <div class="container mx-auto">
+            <p class="mb-4">&copy; 2025 BeretTrails. All rights reserved.</p>
+            <div class="flex justify-center space-x-6 mb-4">
+                <a href="#" class="hover:text-white transition duration-200">Privacy Policy</a>
+                <a href="#" class="hover:text-white transition duration-200">Terms of Service</a>
+            </div>
+            <p class="text-sm">Built with passion and curiosity.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.getElementById('mobile-menu-button');
+            const mobileMenu = document.getElementById('mobile-menu');
+
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', function() {
+                    mobileMenu.classList.toggle('hidden');
+                });
+            }
+        });
+    </script>
+
+</body>
+</html>
