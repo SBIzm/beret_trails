@@ -1,10 +1,10 @@
-s<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BeretTrails</title>
+    <title>Beret Trails</title>
         <script src="https://cdn.tailwindcss.com"></script>
     <style>
         /* Custom font import for Inter */
@@ -18,10 +18,26 @@ s<!DOCTYPE html>
 <body class="text-gray-800">
 
     <main>
-        <div class="flex flex-col md:flex-row rounded-bl-3xl rounded-br-3xl shadow-sm bg-white">
+        
+        <div class="rounded-bl-3xl rounded-br-3xl shadow-sm bg-white px-4 md:px-8 py-4">
+            <nav class="flex flex-col md:flex-row md:items-center md:justify-between w-full">
+                <a href="#" class="text-4xl font-bold text-blue-800 rounded-lg p-2 transition duration-300 ease-in-out hover:bg-blue-50">
+                    Beret Trails
+                </a>
+                <ul class="flex flex-row space-x-2 mt-4 md:mt-0">
+                    
+                    <li><a href="travel.html" class="text-lg font-medium text-gray-700 hover:text-blue-600 transition duration-300 ease-in-out rounded-md px-3 py-2 hover:bg-blue-50 block">Travel</a></li>
+                        <li><a href="#" class="text-lg font-medium text-gray-700 hover:text-blue-600 transition duration-200 ease-in-out rounded-md px-3 py-2 hover:bg-blue-50 block">Finance</a></li>	
+						<li><a href="#" class="text-lg font-medium text-gray-700 hover:text-blue-600 transition duration-200 ease-in-out rounded-md px-3 py-2 hover:bg-blue-50 block">AI Developments</a></li>
+                        <li><a href="#" class="text-lg font-medium text-gray-700 hover:text-blue-600 transition duration-200 ease-in-out rounded-md px-3 py-2 hover:bg-blue-50 block">History</a></li>
+						<li><a href="#" class="text-lg font-medium text-gray-700 hover:text-blue-600 transition duration-200 ease-in-out rounded-md px-3 py-2 hover:bg-blue-50 block">About</a></li>
+                        <li><a href="#" class="text-lg font-medium text-gray-700 hover:text-blue-600 transition duration-200 ease-in-out rounded-md px-3 py-2 hover:bg-blue-50 block">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="rounded-bl-3xl rounded-br-3xl shadow-sm bg-white"> 
             
-            <header class="md:w-1/4 p-4 md:p-8 flex flex-col items-start justify-start border-r border-gray-200">
-                <!-- Mobile menu button for small screens -->
+            <header class="md:hidden p-4 md:p-8 flex flex-col items-start justify-start border-r border-gray-200">
                 <div class="md:hidden w-full flex justify-end mb-4">
                     <button id="mobile-menu-button" class="text-gray-700 hover:text-blue-600 focus:outline-none">
                         <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -30,40 +46,23 @@ s<!DOCTYPE html>
                     </button>
                 </div>
 
-                 <nav class="flex flex-col w-full">
-                    <a href="#" class="text-3xl font-bold text-blue-800 rounded-lg p-2 transition duration-300 ease-in-out hover:bg-blue-50">
-                        BeretTrails
-                    </a>
-                    <!-- Desktop Navigation -->
-                    <ul class="hidden md:flex flex-col space-y-2 mt-8">
-                        <!-- li><a href="#" class="text-lg font-medium text-gray-700 hover:text-blue-600 transition duration-200 ease-in-out rounded-md px-3 py-2 hover:bg-blue-50 block">Home</a></li-->
-                        <!-- li><a href="#" class="text-lg font-medium text-gray-700 hover:text-blue-600 transition duration-200 ease-in-out rounded-md px-3 py-2 hover:bg-blue-50 block">About</a></li -->
-                        <li><a href="/beret_trails/article/travel.html" class="text-lg font-medium text-gray-700 hover:text-blue-600 transition duration-300 ease-in-out rounded-md px-3 py-2 hover:bg-blue-50 block">Travel</a></li>
-                        <li><a href="#" class="text-lg font-medium text-gray-700 hover:text-blue-600 transition duration-200 ease-in-out rounded-md px-3 py-2 hover:bg-blue-50 block">Finance</a></li>
-                        <li><a href="#" class="text-lg font-medium text-gray-700 hover:text-blue-600 transition duration-200 ease-in-out rounded-md px-3 py-2 hover:bg-blue-50 block">History</a></li>
-						<li><a href="#" class="text-lg font-medium text-gray-700 hover:text-blue-600 transition duration-200 ease-in-out rounded-md px-3 py-2 hover:bg-blue-50 block">AI & Machine Learning</a></li>
-                        <!-- li><a href="#" class="text-lg font-medium text-gray-700 hover:text-blue-600 transition duration-200 ease-in-out rounded-md px-3 py-2 hover:bg-blue-50 block">Contact</a></li -->
-                    </ul>
-                </nav>
-
-                <!-- Mobile Navigation (hidden by default) -->
                 <nav id="mobile-menu" class="hidden md:hidden flex-col w-full mt-4 space-y-2 bg-white rounded-lg shadow-md p-4">
-                    <!-- a href="#" class="text-lg font-medium text-gray-700 hover:text-blue-600 transition duration-200 ease-in-out rounded-md px-3 py-2 hover:bg-blue-50 block">Home</a -->
-                    <a href="#" class="text-lg font-medium text-gray-700 hover:text-blue-600 transition duration-200 ease-in-out rounded-md px-3 py-2 hover:bg-blue-50 block">About</a>
-                    <a href="/beret_trails/article/travel.html" class="text-lg font-medium text-gray-700 hover:text-blue-600 transition duration-300 ease-in-out rounded-md px-3 py-2 hover:bg-blue-50 block">Travel</a>
+                     <a href="travel.html" class="text-lg font-medium text-gray-700 hover:text-blue-600 transition duration-300 ease-in-out rounded-md px-3 py-2 hover:bg-blue-50 block">Travel</a>
                     <a href="#" class="text-lg font-medium text-gray-700 hover:text-blue-600 transition duration-200 ease-in-out rounded-md px-3 py-2 hover:bg-blue-50 block">Finance</a>
+					<a href="#" class="text-lg font-medium text-gray-700 hover:text-blue-600 transition duration-200 ease-in-out rounded-md px-3 py-2 hover:bg-blue-50 block">AI Developments</a>
                     <a href="#" class="text-lg font-medium text-gray-700 hover:text-blue-600 transition duration-200 ease-in-out rounded-md px-3 py-2 hover:bg-blue-50 block">History</a>
-					<a href="#" class="text-lg font-medium text-gray-700 hover:text-blue-600 transition duration-200 ease-in-out rounded-md px-3 py-2 hover:bg-blue-50 block">AI & Machine Learning</a>
+					<a href="#" class="text-lg font-medium text-gray-700 hover:text-blue-600 transition duration-200 ease-in-out rounded-md px-3 py-2 hover:bg-blue-50 block">About</a>
                     <a href="#" class="text-lg font-medium text-gray-700 hover:text-blue-600 transition duration-200 ease-in-out rounded-md px-3 py-2 hover:bg-blue-50 block">Contact</a>
                 </nav>
-            </header>
+                
+                </header>
 
-            <section class="relative text-white flex items-center justify-center overflow-hidden md:w-3/4">
+            <section class="relative text-white flex items-center justify-center overflow-hidden w-full"> 
                 <div class="relative w-full h-96">
                     <img src="https://i.imgur.com/bQwn2Ps.jpeg" alt="Point Lobos" class="w-full h-full object-cover">
                     <div class="absolute top-0 left-0 w-full text-center py-4">
-                        <h1 class="text-4xl md:text-6xl font-extrabold mb-2 drop-shadow-lg">BeretTrails</h1>
-                        <p class="text-xl md:text-1xl font-extrabold italic drop-shadow-md">Wherever Trails take me - Travel, Markets, AI, History.</p>
+                        <!-- <h1 class="text-2xl md:text-4xl font-extrabold mb-2 drop-shadow-lg">Welcome to My Journal</h1> -->
+                        <p class="text-2xl md:text-1xl font-extrabold italic drop-shadow-md">Exploring the intersections of travel, finance, history, and AI</p>
                     </div>
                 </div>
             </section>
@@ -115,7 +114,7 @@ s<!DOCTYPE html>
                 <article class="bg-white rounded-xl shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-xl">
                     <div class="relative">
                         <img src="https://i.imgur.com/YooTdbw.jpeg" alt="Haleakala" class="w-full h-48 object-cover">
-                        <h1 class="relative top-1 left -1 text-white text-2xl font-bold bg-black bg-opacity-50 px-3 py-1 rounded">AI and Machine Learning</h1>
+                        <h1 class="relative top-1 left -1 text-white text-2xl font-bold bg-black bg-opacity-50 px-3 py-1 rounded">AI Developments</h1>
                     </div>
                     <div class="p-6">
                         <h3 class="text-2xl font-semibold text-gray-900 mb-2">Near Term Expectations for LLMs</h3>
@@ -160,12 +159,12 @@ s<!DOCTYPE html>
 
 
         <section class="container mx-auto py-0 px-4 sm:px-6 lg:px-8 text-center">
-            <h2 class="text-4xl font-bold mb-0 text-gray-900">About BeretTrails</h2>
+            <h2 class="text-4xl font-bold mb-0 text-gray-900">About Beret Trails</h2>
             <div class="max-w-3xl mx-auto bg-white p-0 rounded-xl shadow-lg mt-[-6] ">
                 <img src="https://i.imgur.com/jJrFObH.jpeg" alt="About Me Picture" class="w-36 h-36 rounded-full mx-auto object-cover border-4 border-blue-200 shadow-md">                
                 <p class="text-s text-gray-700 leading-relaxed mb-4">
-                    Welcome to BeretTrails! I'm SB, and this is my digital space to share thoughts and insights across a wide spectrum of topics. From the winding roads of travel to the
-					intricate dance of financial markets, the frontier of Artificial Intelligence, and the captivating narratives of political history – I explore it all.
+                    Welcome to Beret Trails! This is my digital space to share thoughts and insights across a wide spectrum of topics. From the winding roads of travel to the
+					intricate dance of financial markets, the frontiers of Artificial Intelligence, and the captivating narratives of political history – I explore it all.
 					Join me as we uncover new perspectives and learn together.
                 </p>
                 <a href="#" class="bg-blue-600 text-white hover:bg-blue-700 px-6 py-3 rounded-full text-lg font-semibold shadow-md transition duration-300 ease-in-out transform hover:scale-105">
@@ -190,12 +189,12 @@ s<!DOCTYPE html>
 
         <footer class="bg-gray-900 text-gray-300 py-8 px-4 sm:px-6 lg:px-8 text-center">
         <div class="container mx-auto">
-            <p class="mb-4">&copy; 2025 BeretTrails. All rights reserved.</p>
+            <p class="mb-4">&copy; 2025 Beret Trails. All rights reserved.</p>
             <div class="flex justify-center space-x-6 mb-4">
                 <a href="#" class="hover:text-white transition duration-200">Privacy Policy</a>
                 <a href="#" class="hover:text-white transition duration-200">Terms of Service</a>
             </div>
-            <p class="text-sm">Built with passion and curiosity.</p>
+            <!-- p class="text-sm">Built with passion and curiosity.</p -->
         </div>
     </footer>
 
