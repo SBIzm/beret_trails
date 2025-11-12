@@ -25,7 +25,13 @@
                     Beret Trails
                 </a>
                 <ul class="hidden md:flex flex-row space-x-2 mt-4 md:mt-0">
-                    
+                    <!-- To hide the desktop menu items ("Travel, Markets, Technology, Post List") on mobile screens while keeping the "Beret Trails" banner visible,
+					you need to apply the Tailwind CSS class hidden to the <ul> element and use the md:flex utility to make it visible only on medium screens and larger. -->
+					<!-- hidden: By adding this class to the <ul> element, the menu is hidden by default on all screens (mobile first).
+						 md:flex: This utility overrides hidden starting from the medium breakpoint (md:), making the <ul> appear as a flex container only on desktop/tablet screens and larger.
+						 This combination ensures the standard menu only appears when there's enough screen real estate, achieving the desired mobile view where only the "Beret Trails" banner
+						 is shown in the main navigation bar. -->
+					
                         <li><a href="/beret_trails/article/travel.html" class="text-base font-medium text-gray-700 hover:text-blue-600 transition duration-200 ease-in-out rounded-md px-3 py-2 hover:bg-blue-50 block">Travel</a></li>
                         <li><a href="/beret_trails/article/markets.html" class="text-base font-medium text-gray-700 hover:text-blue-600 transition duration-200 ease-in-out rounded-md px-3 py-2 hover:bg-blue-50 block">Markets</a></li>	
 						<li><a href="/beret_trails/article/ai.html" class="text-base font-medium text-gray-700 hover:text-blue-600 transition duration-200 ease-in-out rounded-md px-3 py-2 hover:bg-blue-50 block">Technology</a></li>
