@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ryBldg_SF<!DOCTYPE html>
+<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From the Nile River to Bosphorus Strait - BeretTrails</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom font import for Inter */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc; /* Light gray background */
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <header class="bg-white shadow-sm py-4 px-4 sm:px-6 lg:px-8">
+        <nav class="container mx-auto flex justify-between items-center">
+            <a href="https://sbizm.github.io/beret_trails/index.html" class="text-3xl font-bold text-blue-800 rounded-lg p-2 transition duration-300 ease-in-out hover:bg-blue-50">
+                BeretTrails
+            </a>
+            <ul class="hidden md:flex space-x-6">
+                <!--li><a href="/" class="text-lg font-medium text-gray-700 hover:text-blue-600 transition duration-200 ease-in-out rounded-md px-3 py-2 hover:bg-blue-50">Home</a></li -->
+                <!-- li><a href="#" class="text-lg font-medium text-gray-700 hover:text- blue-600 transition duration-200 ease-in-out rounded-md px-3 py-2 hover:bg-blue-50">About</a></li -->
+                <li><a href="travel.html" class="text-lg font-medium text-gray-700 hover:text-blue-600 transition duration-200 ease-in-out rounded-md px-3 py-2 hover:bg-blue-50">Travel</a></li>
+                <li><a href="markets.html" class="text-lg font-medium text-gray-700 hover:text-blue-600 transition duration-200 ease-in-out rounded-md px-3 py-2 hover:bg-blue-50">Markets</a></li>
+                <li><a href="ai.html" class="text-lg font-medium text-gray-700 hover:text-blue-600 transition duration-200 ease-in-out rounded-md px-3 py-2 hover:bg-blue-50">Technology</a></li>
+                <!-- li><a href="#" class="text-lg font-medium text-gray-700 hover:text-blue-600 transition duration-200 ease-in-out rounded-md px-3 py-2 hover:bg-blue-50">Contact</a></li -->
+            </ul>
+            <button class="md:hidden text-gray-700 hover:text-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 rounded-md p-2" id="mobile-menu-button">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" 
+				stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+            </button>
+        </nav>
+        <div class="md:hidden mt-2 hidden" id="mobile-menu">
+            <ul class="flex flex-col space-y-2 px-4 py-2 bg-gray-50 rounded-lg shadow-inner">
+                <!-- li><a href="/" class="block text-md font-medium text-gray-700 hover:text-blue-600 transition duration-200 ease-in-out rounded-md px-3 py-2 hover:bg-blue-100">Home</a></li -->
+                <!-- li><a href="#" class="block text-md font-medium text-gray-700 hover:text-blue-600 transition duration-200 ease-in-out rounded-md px-3 py-2 hover:bg-blue-100">About</a></li>
+                <li><a href="#" class="block text-md font-medium text-gray-700 hover:text-blue-600 transition duration-200 ease-in-out rounded-md px-3 py-2 hover:bg-blue-100">Blog</a></li -->
+                <li><a href="travel.html" class="block text-md font-medium text-gray-700 hover:text-blue-600 transition duration-200 ease-in-out rounded-md px-3 py-2 hover:bg-blue-100">Travel</a></li>
+                <li><a href="markets.html" class="block text-md font-medium text-gray-700 hover:text-blue-600 transition duration-200 ease-in-out rounded-md px-3 py-2 hover:bg-blue-100">Markets</a></li>
+                <li><a href="ai.html" class="block text-md font-medium text-gray-700 hover:text-blue-600 transition duration-200 ease-in-out rounded-md px-3 py-2 hover:bg-blue-100">Technology</a></li>
+                <!-- li><a href="#" class="block text-md font-medium text-gray-700 hover:text-blue-600 transition duration-200 ease-in-out rounded-md px-3 py-2 hover:bg-blue-100">History</a></li -->
+                <!-- li><a href="#" class="block text-md font-medium text-gray-700 hover:text-blue-600 transition duration-200 ease-in-out rounded-md px-3 py-2 hover:bg-blue-100">Contact</a></li -->
+            </ul>
+        </div>
+    </header>
+
+    <main class="container mx-auto py-16 px-4 sm:px-6 lg:px-8 max-w-4xl">
+        <article class="bg-white p-8 md:p-12 rounded-xl shadow-lg">
+            <img src="https://sbizm.github.io/beret_trails/images/GrandEgyptianMuseum_2026.jpg" alt="Grand Egyptian Museum" class="w-full rounded-xl object-cover mb-8 shadow-sm" style="height: 400px;">
+            
+            <h1 class="text-4xl font-bold text-gray-900 mb-2">From the Nile River, Egypt to Bosphorus Strait, Turkiye
+ </h1>
+            <p class="text-gray-500 mb-6 text-sm">Travel | Apr 6, 2025</p>
+
+            <div class="prose max-w-none text-gray-700 leading-relaxed">
+                <p>During March of 2026,, my girlfriend and I spent three weeks journeying through Egypt and Istanbul, Turkiye. It was a breathtaking experience
+				that took us from the ancient pyramids of Giza to the vibrant, rain-slicked streets of Istanbul.<br>  Our journey began on March 1, 2026,at San Francisco International
+				Airport, where we met two dear friends and boarded a long-haul Turkish Airlines flight bound for the crossroads of continents - Istanbul.
+				We were all awed by the anticipation of exploring world’s two oldest civilizations.  After 13 hours in the air, we landed in Istanbul Airport, a modern hub bridging
+				Europe and Asia. At the Istanbul airport, two other friends from Toronto joined our foursome. Later that evening, all six of us continued onward to Cairo—a city
+				blending a thousand years of Islamic architecture with the nearby remnants of Ancient Egypt’s Old Kingdom dating back over 4500 years.</p>
+                <br>
+				
+				<img src="https://sbizm.github.io/beret_trails/images/Luxor_temple_SF.jpg" alt="Luxor Temple" class="w-full rounded-xl object-contain mb-8 shadow-sm" ">
+                <h2 class="text-gray-700 leading-relaxed">Luxor Temple</h2>
+				<br> <br>
+				
+				<p>Arriving Cairo airport at night, we were greeted and transferred to the luxurious The St. Regis Cairo, set along the legendary Nile River—the lifeblood of Egyptian
+				civilization since antiquity. From our room high above the river, we can see the city lights shimmering on the Nile’s surface, and we can watch traditional feluccas
+				glide past the modern Cairo skyline. It was the perfect sanctuary to retreat to after two long flights from San Francisco to Cairo. Later at night, all six of us
+				reviewed of itinerary for the next three weeks over drinks at St Regis. </p> <br>
+				
+				<img src="https://sbizm.github.io/beret_trails/images/Bosphorus_2026.jpg" alt="Bosphorus" class="w-full rounded-xl object-contain mb-8 shadow-sm" ">
+                <h2 class="text-gray-700 leading-relaxed">Bosphorus,Istanbul - Turkiye</h2>
+				<br> <br> 
+									
+				<p>Together, these places tell a continuous story—of innovation, belief, power, and culture—stretching across thousands of years and still alive today. So please
+				view my next three travel posts: Cairo - City of a Thousand Minarets, Cruising the Nile, and Magic of Istanbul.  </p>			
+				
+				                
+                
+             <a href="https://sbizm.github.io/beret_trails/index.html" class="mt-8 inline-block text-blue-600 hover:text-blue-800 font-medium flex items-center group">
+    <svg class="mr-1 w-4 h-4 transition-transform group-hover:-translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 17l-5-5m0 0l5-5m-5 5h14"></path>
+    </svg>
+    Back to Beret Trails website		
+</a>
+
+        </article>
+    </main>
+
+    <footer class="bg-gray-900 text-gray-300 py-8 px-4 sm:px-6 lg:px-8 text-center mt-12">
+        <div class="container mx-auto">
+            <p class="mb-4">&copy; 2025 BeretTrails. All rights reserved.</p>
+            <div class="flex justify-center space-x-6 mb-4">
+                <a href="#" class="hover:text-white transition duration-200">Privacy Policy</a>
+                <a href="#" class="hover:text-white transition duration-200">Terms of Service</a>
+            </div>
+            <!-- p class="text-sm">Built with passion and curiosity.</p -->
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.getElementById('mobile-menu-button');
+            const mobileMenu = document.getElementById('mobile-menu');
+
+            mobileMenuButton.addEventListener('click', function() {
+                mobileMenu.classList.toggle('hidden');
+            });
+        });
+    </script>
+
+</body>
+
+</html>
